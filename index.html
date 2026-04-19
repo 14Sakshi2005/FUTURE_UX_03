@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Dashboard</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>AgencyCRM</h2>
+    <a href="#" class="nav-link">Dashboard</a>
+    <a href="#" class="nav-link">Leads</a>
+    <a href="#" class="nav-link">Clients</a>
+    <a href="#" class="nav-link">Tasks</a>
+    <a href="#" class="nav-link">Analytics</a>
+    <a href="#" class="nav-link">Settings</a>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+
+    <!-- Header -->
+    <div class="header">
+        <h2>Dashboard Overview</h2>
+        <input type="text" class="search" placeholder="Search...">
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+        <div class="card">
+            <h3>Total Leads</h3>
+            <h1>124</h1>
+        </div>
+        <div class="card">
+            <h3>Active Clients</h3>
+            <h1>32</h1>
+        </div>
+        <div class="card">
+            <h3>Pending Follow-ups</h3>
+            <h1>18</h1>
+        </div>
+        <div class="card">
+            <h3>Tasks Due Today</h3>
+            <h1>7</h1>
+        </div>
+    </div>
+
+    <!-- Pipeline -->
+    <h3>Lead Pipeline</h3>
+    <div class="pipeline">
+        <div class="column">
+            <h4>New</h4>
+            <div class="lead">ABC Pvt Ltd<br>₹50,000</div>
+        </div>
+        <div class="column">
+            <h4>Contacted</h4>
+            <div class="lead">XYZ Corp<br>₹30,000</div>
+        </div>
+        <div class="column">
+            <h4>Discussion</h4>
+            <div class="lead">TechSoft<br>₹80,000</div>
+        </div>
+        <div class="column">
+            <h4>Converted</h4>
+            <div class="lead">Alpha Inc<br>₹1,00,000</div>
+        </div>
+    </div>
+
+    <!-- Client Table -->
+    <table>
+        <tr>
+            <th>Client</th>
+            <th>Project</th>
+            <th>Status</th>
+            <th>Last Contact</th>
+            <th>Next Follow-up</th>
+        </tr>
+        <tr>
+            <td>ABC Pvt Ltd</td>
+            <td>Website</td>
+            <td>Active</td>
+            <td>Apr 10</td>
+            <td>Apr 20</td>
+        </tr>
+        <tr>
+            <td>XYZ Corp</td>
+            <td>SEO</td>
+            <td>Pending</td>
+            <td>Apr 12</td>
+            <td>Apr 22</td>
+        </tr>
+    </table>
+
+    <!-- Tasks -->
+    <div class="tasks">
+        <h3>Today's Tasks</h3>
+        <p>• Call ABC Client</p>
+        <p>• Send Proposal</p>
+        <p>• Review Campaign</p>
+    </div>
+
+</div>
+
+<!-- JS LINK -->
+<script src="script.js"></script>
+
+</body>
+</html>
